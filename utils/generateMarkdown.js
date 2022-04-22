@@ -1,10 +1,10 @@
 // https://michaelcurrin.github.io/badge-generator/#/ this badge was created with thelp of Michael Currin's wonderful badge generator
-const renderLicenseBadge = (license) => `<a href="#license"><img src="https://img.shields.io/badge/License-${license}-2ea44f" alt="License - ${license}"></a>`
+const renderLicenseBadge = (license) => `<a href="#license"><img src="https://img.shields.io/badge/License-${license}-2ea44f" alt="License - ${license}"></a>`;
 
-const renderLicenseSection = (license) => license === "No License" ? " " : "Distributed under the " + license + " License. See \`\LICENSE.txt\`\ for more information."
+const renderLicenseSection = (license) => license === "No License" ? " " : "Distributed under the " + license + " License. See \`\LICENSE.txt\`\ for more information.";
 
 const generateMarkdown = (data) => {
-    return (
+  return (
 `# ${data.title}
 ${renderLicenseBadge(data.license)}
 <div align="center">
@@ -24,9 +24,6 @@ ${renderLicenseBadge(data.license)}
 
 ## License
 ${renderLicenseSection(data.license)}`
-
-
-
 )}
 
 var module =
