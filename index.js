@@ -7,7 +7,7 @@ const questions = [
     { 
     type: "text",
     message: "What is your GitHub username?",
-    name: "userName"
+    name: "username"
     },
     { 
     type: "text",
