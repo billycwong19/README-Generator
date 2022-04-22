@@ -9,7 +9,6 @@ const generateMarkdown = (data) => {
   return (
 `# ${data.title}
 ${renderLicenseBadge(data.license)}
-[![Made with Node.js](https://img.shields.io/badge/Node.js->=12-blue?logo=node.js&logoColor=white)](https://nodejs.org "Go to Node.js homepage")
 <div align="center">
   <p align="center">
     <h3>${data.title}</h3>
