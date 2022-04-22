@@ -1,5 +1,7 @@
+<div id="top"></div>
+
 # README-Generator
-<a href="#license"><img src="https://img.shields.io/badge/License-MIT-2ea44f" alt="License - MIT"></a>
+<a id="top" href="#license"><img src="https://img.shields.io/badge/License-MIT-2ea44f" alt="License - MIT"></a>
 [![Made with Node.js](https://img.shields.io/badge/Node.js->=12-blue?logo=node.js&logoColor=white)](https://nodejs.org "Go to Node.js homepage")
 [![dependency - Inquirer](https://img.shields.io/badge/dependency-Inquirer-blue?logo=Inquirer&logoColor=white)](https://www.npmjs.com/package/Inquirer)
 <div align="center">
@@ -54,19 +56,19 @@
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## Usage
+### Usage
 
 <p>Use at your own risk!</p>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## License
+### License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## Contributing
+### Contributing
 
 <p>Please feel free to contribute!</p>
 

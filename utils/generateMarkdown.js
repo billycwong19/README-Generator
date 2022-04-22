@@ -7,7 +7,9 @@ const renderLicenseSection = (license) => license === "No License" ? " " : "Dist
 // creates markdown and uses data passed from index.js
 const generateMarkdown = (data) => {
   return (
-`# ${data.title}
+`<div id="top"></div>
+
+# ${data.title}
 ${renderLicenseBadge(data.license)}
 <div align="center">
   <p align="center">
