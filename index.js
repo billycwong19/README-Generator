@@ -1,6 +1,8 @@
+// grabbing modules through require()
 const inquirer = require('inquirer');
 const generateMarkdown = require('./utils/generateMarkdown')
 const fs = require('fs')
+// questions formatted for the inquirer prompt() method
 const questions = [
     { 
     type: "text",
@@ -49,24 +51,12 @@ const questions = [
     name: "contribute"
     },
 ];
-const askQuestions = () => {
-inquirer.prompt(questions)
-.then(function (data) {
-    writeToFile(data)
-    }
-)}
-
-// TODO: Create a function to write README file
-
-const writeToFile = (data) => {
-    fs.writeFile("README.md", generateMarkdown.generateMarkdown(data), ifwrite => (console.log('Success!')));
-}
-
-// TODO: Create a function to initialize app
-function init() {
-    askQuestions();
-}
-
-// // Function call to initialize app
+// runs the inquirer prompt() with the questions array as an argument. it then passes the input data to writeTofile
+const askQuestions = () => inquirer.prompt(questions).then((data) => writeToFile(data))
+// takes data and passes it to 'generateMarkdown' which is imported from 'generateMarkdown.js' and returns a README.md based on the user input
+const writeToFile = (data) => fs.writeFile("README.md", generateMarkdown.generateMarkdown(data), ifwrite => (console.log('Success!')));
+// innit?
+const init = () => askQuestions();
+// INNNIT?!
 init();
   
