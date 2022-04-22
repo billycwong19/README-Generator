@@ -1,19 +1,21 @@
 <div id="top"></div>
 
-# Portfolio
-<a href="#license"><img src="https://img.shields.io/badge/License-MIT-2ea44f" alt="License - MIT"></a>
+# README-Generator
+<a id="top" href="#license"><img src="https://img.shields.io/badge/License-MIT-2ea44f" alt="License - MIT"></a>
+[![Made with Node.js](https://img.shields.io/badge/Node.js->=12-blue?logo=node.js&logoColor=white)](https://nodejs.org "Go to Node.js homepage")
+[![dependency - Inquirer](https://img.shields.io/badge/dependency-Inquirer-blue?logo=Inquirer&logoColor=white)](https://www.npmjs.com/package/Inquirer)
 <div align="center">
   <p align="center">
-    <h3>Portfolio</h3>
+    <h3>README-Generator</h3>
     <br />
-    <a href="https://github.com/billycwong19/Portfolio"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/billycwong19/README-Generator"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/billycwong19/Portfolio">View Site</a>
+    <a href="https://github.com/billycwong19/README-Generator">View Site</a>
     ·
-    <a href="https://github.com/billycwong19/Portfolio/issues">Report Bug</a>
+    <a href="https://github.com/billycwong19/README-Generator/issues">Report Bug</a>
     ·
-    <a href="https://github.com/billycwong19/Portfolio/issues">Request Feature</a>
+    <a href="https://github.com/billycwong19/README-Generator/issues">Request Feature</a>
   </p>
 </div>
 
@@ -37,7 +39,7 @@
 
 ## About The Project
 
-<p>portfolio</p>
+<p>The README Generator is meant to ease the pain of creating README files for every project you make. This short questionaire will build you a README based on the information you give. Count to 3 and voila! A README is generated for you that contains a badge for your license, a table of contents for your visitors, and links to everything you would need to share. In fact, this README was generated through this very application! Thanks for looking!</p>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -45,30 +47,30 @@
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/billycwong19/Portfolio.git
+   git clone https://github.com/billycwong19/README-Generator.git
    ```
 2. Install NPM packages
    ```sh
-   okay
+   npm install readmegen
    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## Usage
+### Usage
 
-<p>everything!</p>
+<p>Use at your own risk!</p>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## License
+### License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-## Contributing
+### Contributing
 
-<p>idk!</p>
+<p>Please feel free to contribute!</p>
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
 Don't forget to give the project a star! Thanks again!
@@ -85,7 +87,7 @@ Don't forget to give the project a star! Thanks again!
 
 Run tests cmmand:
 
-<code>okay runtests</code>
+<code>npm run test</code>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -93,6 +95,6 @@ Run tests cmmand:
 
 If you have any questions about this application please feel free to email me here: billycwong19@gmail.com
 
-Project Link: [https://github.com/billycwong19/Portfolio](https://github.com/billycwong19/Portfolio)
+Project Link: [https://github.com/billycwong19/README-Generator](https://github.com/billycwong19/README-Generator)
 
 <p align="right">(<a href="#top">back to top</a>)</p>

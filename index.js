@@ -54,7 +54,7 @@ const questions = [
 // runs the inquirer prompt() with the questions array as an argument. it then passes the input data to writeTofile
 const askQuestions = () => inquirer.prompt(questions).then((data) => writeToFile(data))
 // takes data and passes it to 'generateMarkdown' which is imported from 'generateMarkdown.js' and returns a README.md based on the user input
-const writeToFile = (data) => fs.writeFile("README.md", generateMarkdown.generateMarkdown(data), ifwrite => (console.log('Success!')));
+const writeToFile = (data) => fs.writeFile("README_output.md", generateMarkdown.generateMarkdown(data), ifwrite => (console.log('Success!')));
 // innit?
 const init = () => askQuestions();
 // INNNIT?!
