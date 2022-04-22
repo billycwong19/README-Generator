@@ -1,20 +1,38 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+// https://michaelcurrin.github.io/badge-generator/#/ this badge was created with thelp of Michael Currin's wonderful badge generator
+const renderLicenseBadge = (license) => `<a href="#license"><img src="https://img.shields.io/badge/License-${license}-2ea44f" alt="License - ${license}"></a>`
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {}
+const renderLicenseSection = (license) => license === "No License" ? " " : "Distributed under the " + license + " License. See \`\LICENSE.txt\`\ for more information."
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
+const generateMarkdown = (data) => {
+    return (
+`# ${data.title}
+${renderLicenseBadge(data.license)}
+<div align="center">
+  <p align="center">
+    <h3>${data.description}</h3>
+    <br />
+    <a href="https://github.com/${data.username}/${data.title}"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/${data.username}/${data.title}">View Site</a>
+    ·
+    <a href="https://github.com/${data.username}/${data.title}/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/${data.username}/${data.title}/issues">Request Feature</a>
+  </p>
+</div>
 
-// TODO: Create a function to generate markdown for README
-function generateMarkdown(data) {
-  return `# ${data.title}
+## License
+${renderLicenseSection(data.license)}`
 
-`;
+
+
+)}
+
+var module =
+module.exports = {
+  renderLicenseBadge,
+  renderLicenseSection,
+  generateMarkdown
 }
 
-module.exports = generateMarkdown;
