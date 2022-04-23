@@ -1,8 +1,8 @@
 // https://michaelcurrin.github.io/badge-generator/#/ this badge was created with thelp of Michael Currin's wonderful badge generator
 // takes in a license as an argument and creates a badge with that license on it. Even "No License" will appear.
-const renderLicenseBadge = (license) => `<a href="#license"><img src="https://img.shields.io/badge/License-${license}-2ea44f" alt="License - ${license}"></a>`;
+const renderLicenseBadge = (license) => license === "No License" ? `<img src="https://img.shields.io/badge/License-None-2ea44f" alt="License - None">` :`<a href="#license"><img src="https://img.shields.io/badge/License-${license}-2ea44f" alt="License - ${license}"></a>`;
 // Creates text in the License section of there is a license selected.
-const renderLicenseSection = (license) => license === "No License" ? " " : "Distributed under the " + license + " License. See \`LICENSE.txt\` for more information.";
+const renderLicenseSection = (license) => license === "No License" ? "Not Applicable" : "Distributed under the " + license + " License. See \`LICENSE.txt\` for more information.";
 // https://github.com/othneildrew/Best-README-Template snippets of HTML for the markdown were taken from this README template. which is awesome!
 // creates markdown and uses data passed from index.js
 const generateMarkdown = (data) => {
@@ -92,7 +92,7 @@ Don't forget to give the project a star! Thanks again!
 
 ### Tests
 
-Run tests cmmand:
+Run tests command:
 
 <code>${data.tests}</code>
 

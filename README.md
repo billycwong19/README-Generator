@@ -3,7 +3,7 @@
 # README-Generator
 <a id="top" href="#license"><img src="https://img.shields.io/badge/License-MIT-2ea44f" alt="License - MIT"></a>
 [![Made with Node.js](https://img.shields.io/badge/Node.js->=12-blue?logo=node.js&logoColor=white)](https://nodejs.org "Go to Node.js homepage")
-[![dependency - Inquirer](https://img.shields.io/badge/dependency-Inquirer-blue?logo=Inquirer&logoColor=white)](https://www.npmjs.com/package/Inquirer)
+[![dependency - Inquirer](https://img.shields.io/badge/dependency-Inquirer-blue?logo=Inquirer&logoColor=white)](https://www.npmjs.com/package/inquirer)
 <div align="center">
   <p align="center">
     <h3>README-Generator</h3>
@@ -72,20 +72,18 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p>Please feel free to contribute!</p>
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
+If you have a suggestion please open an issue then fork the repo and create a pull request.
 1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
+2. Create your Feature Branch (`git checkout -b feature/newFeature`)
+3. Commit your Changes (`git commit -m 'Add some newFeature'`)
+4. Push to the Branch (`git push origin feature/newFeature`)
 5. Open a Pull Request
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ### Tests
 
-Run tests cmmand:
+Run tests command:
 
 <code>npm run test</code>
 
