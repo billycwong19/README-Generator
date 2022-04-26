@@ -11,7 +11,7 @@
     <a href="https://github.com/billycwong19/README-Generator"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/billycwong19/README-Generator">View Site</a>
+    <a href="https://drive.google.com/file/d/1XOR729tb59_w4-ZXgnjKAa70t6ochxDX/view?usp=sharing">Video Demo</a>
     ·
     <a href="https://github.com/billycwong19/README-Generator/issues">Report Bug</a>
     ·
